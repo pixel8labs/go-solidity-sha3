@@ -32,19 +32,7 @@ func (*SolSHA3) Hash(data ...[]byte) []byte {
 }
 
 // SoliditySHA3 solidity sha3
-func SoliditySHA3(data ...interface{}) []byte {
-	types, ok := data[0].([]string)
-	if len(data) > 1 && ok {
-		rest := data[1:]
-		if len(rest) == len(types) {
-			return solsha3(types, data[1:]...)
-		}
-		iface, ok := data[1].([]interface{})
-		if ok {
-			return solsha3(types, iface...)
-		}
-	}
-
+func SoliditySHA3(data ...[]byte) []byte {
 	var v [][]byte
 	for _, item := range data {
 		b := parseBytes(item, -1)
