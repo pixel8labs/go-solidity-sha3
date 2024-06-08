@@ -1,3 +1,5 @@
+# go-solidity-sha3
+library to perform hashing sha3 equivalent to solidity
 <h3 align="center">
   <br />
   <img src="https://user-images.githubusercontent.com/168240/51433394-10dbe380-1bfe-11e9-86c8-d4d57f77fb11.png" alt="logo" width="700" />
