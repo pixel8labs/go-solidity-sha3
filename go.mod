@@ -1,4 +1,4 @@
-module github.com/Rwinwij/go-solidity-sha3
+module github.com/Pixel8Labs/go-solidity-sha3
 
 go 1.16
 

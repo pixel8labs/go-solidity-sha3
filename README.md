@@ -12,10 +12,10 @@ library to perform hashing sha3 equivalent to solidity
 
 > Generate Solidity SHA3 (Keccak256) hashes in Go.
 
-[![License](http://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Rwinwij/go-solidity-sha3/master/LICENSE.md)
-[![Build Status](https://travis-ci.org/Rwinwij/go-solidity-sha3.svg?branch=master)](https://travis-ci.org/Rwinwij/go-solidity-sha3)
-[![Go Report Card](https://goreportcard.com/badge/github.com/Rwinwij/go-solidity-sha3?)](https://goreportcard.com/report/github.com/Rwinwij/go-solidity-sha3)
-[![GoDoc](https://godoc.org/github.com/Rwinwij/go-solidity-sha3?status.svg)](https://godoc.org/github.com/Rwinwij/go-solidity-sha3)
+[![License](http://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Pixel8Labs/go-solidity-sha3/master/LICENSE.md)
+[![Build Status](https://travis-ci.org/Pixel8Labs/go-solidity-sha3.svg?branch=master)](https://travis-ci.org/Pixel8Labs/go-solidity-sha3)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Pixel8Labs/go-solidity-sha3?)](https://goreportcard.com/report/github.com/Pixel8Labs/go-solidity-sha3)
+[![GoDoc](https://godoc.org/github.com/Pixel8Labs/go-solidity-sha3?status.svg)](https://godoc.org/github.com/Pixel8Labs/go-solidity-sha3)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 
 This package is the Go equivalent of `require('ethers').utils.solidityKeccak256` [NPM module](https://www.npmjs.com/package/ethers).
@@ -23,12 +23,12 @@ This package is the Go equivalent of `require('ethers').utils.solidityKeccak256`
 ## Install
 
 ```bash
-go get github.com/Rwinwij/go-solidity-sha3
+go get github.com/Pixel8Labs/go-solidity-sha3
 ```
 
 ## Documentation
 
-[Documentation on GoDoc](https://godoc.org/github.com/Rwinwij/go-solidity-sha3)
+[Documentation on GoDoc](https://godoc.org/github.com/Pixel8Labs/go-solidity-sha3)
 
 ## Getting started
 
@@ -41,7 +41,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/Rwinwij/go-solidity-sha3"
+	"github.com/Pixel8Labs/go-solidity-sha3"
 )
 
 func main() {
@@ -75,7 +75,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/Rwinwij/go-solidity-sha3"
+	"github.com/Pixel8Labs/go-solidity-sha3"
 )
 
 func main() {
