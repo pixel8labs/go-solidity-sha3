@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"math/big"
 
-	solsha3 "github.com/Pixel8Labs/go-solidity-sha3"
+	solsha3 "github.com/pixel8labs/go-solidity-sha3"
 )
 
 func main() {

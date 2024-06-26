@@ -1,9 +1,8 @@
-module github.com/pixel8Labs/go-solidity-sha3
+module github.com/pixel8labs/go-solidity-sha3
 
 go 1.21
 
 require (
-	github.com/Pixel8Labs/go-solidity-sha3 v0.1.0
 	github.com/ethereum/go-ethereum v1.14.5
 	golang.org/x/crypto v0.22.0
 )
